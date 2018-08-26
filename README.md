@@ -8,6 +8,6 @@ I cleaned the dataset by removing punctuation, special charaters, extra spaces, 
 I also used Google's Word2Vec to get document vectors for each article, then used that to cluster using kMeans.  I also used these vectors to find the most relevant article to an input query by applying sklearn's nearest neighbor algorithm.
 
 ### Jarvis speaks!  
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/jarvis_flask.png)
+![alt text](https://github.com/Cassini-4B/Jarvis_QA/blob/master/jarvis_flask.png)
 
 Here's my Jarvis interface.  You input text about an article or topic you've read, and when you click on 'House Party Protocol', you get a random choice of 3 (out of 10) relevant articles as a response to your input query, and I've tied it to marytts (http://mary.dfki.de/) to synthesize a voice output.  
